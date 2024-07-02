@@ -1,7 +1,7 @@
 
 import { FireIcon, HeartIcon } from "@heroicons/react/24/outline"
 
-const RecipeCategories = ({image, name, kcal, min}) => {
+const TileCard = ({image, name, kcal, min}) => {
     return (
         <div className="flex items-center bg-[#F6F6F6]  rounded-lg drop-shadow-lg mb-4">
             <div className="w-16 h-16 rounded-full ">
@@ -26,4 +26,4 @@ const RecipeCategories = ({image, name, kcal, min}) => {
     )
 }
 
-export default RecipeCategories
+export default TileCard
